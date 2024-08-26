@@ -1,13 +1,33 @@
-repeat
-    wait()
-until game:IsLoaded()
+repeat task.wait() until game:IsLoaded()
+local Player = game:GetService("Players").LocalPlayer
+if Player.Name == "jeremy21414" then -- Acc 1
+getgenv().code = "vBQSkfvd76"
+elseif Player.Name == "brookswendy" then -- Acc 2
+getgenv().code = "MYO7Pvfy7D"
+elseif Player.Name == "Anclukop" then -- Acc 3
+getgenv().code = "efnmb0xxxD"
+elseif Player.Name == "Nozarako" then -- Acc 4
+getgenv().code = "WS1Qbgv7Rm"
+elseif Player.Name == "FelixDxx99" then -- Acc 5
+getgenv().code = "wiX4EB15jm"
+elseif Player.Name == "mechanic_mad" then -- Acc 6
+getgenv().code = "asSNyC8FJm"
+elseif Player.Name == "joneskevin_978" then -- Acc 6
+getgenv().code = "L6q8fRLk17 "
+elseif Player.Name == "hamiltonbrian90" then -- Acc 6
+getgenv().code = "QKGR92OOsO"
+elseif Player.Name == "jonathan06398" then -- Acc 6
+getgenv().code = "IueBj0kYJW"
+elseif Player.Name == "richapril6" then -- Acc 6
+getgenv().code = "Rzzvj2msk6"
+end
+
 game:GetService("RunService"):Set3dRenderingEnabled(false)
 getgenv().BuyMythicalChest = true
 getgenv().BuyLegendaryChest = false
 getgenv().StopOnShop = false
 getgenv().MythicalCostCap = 375453
-getgenv().TweenSpeed = 50
-getgenv().code = "efnmb0xxxD"
+getgenv().TweenSpeed = 100
 getgenv().WebHook = "https://discord.com/api/webhooks/1277643702533230613/7EihLbgZtNCrOHIeS0PDNwMxCfbWMoprKvcW3GJvm8y2bcZ-7E9zm2-4j614ipZXjUTN"
 script_key="qLRnScCaxMHqydUcTcwMJqPiEOigAdyT";
 loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/16ef3b8358c3871fed6457dc45dca67e.lua"))()
