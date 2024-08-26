@@ -1,2 +1,6 @@
+repeat
+    wait()
+until game:IsLoaded()
+game:GetService("RunService"):Set3dRenderingEnabled(false)
 script_key="qLRnScCaxMHqydUcTcwMJqPiEOigAdyT";
 loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/9217a7f5a73261867db220523aeafc88.lua"))()
