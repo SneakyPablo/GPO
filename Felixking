@@ -2,5 +2,12 @@ repeat
     wait()
 until game:IsLoaded()
 game:GetService("RunService"):Set3dRenderingEnabled(false)
+getgenv().BuyMythicalChest = true
+getgenv().BuyLegendaryChest = false
+getgenv().StopOnShop = false
+getgenv().MythicalCostCap = 375453
+getgenv().TweenSpeed = 50
+getgenv().code = "efnmb0xxxD"
+getgenv().WebHook = "https://discord.com/api/webhooks/1277643702533230613/7EihLbgZtNCrOHIeS0PDNwMxCfbWMoprKvcW3GJvm8y2bcZ-7E9zm2-4j614ipZXjUTN"
 script_key="qLRnScCaxMHqydUcTcwMJqPiEOigAdyT";
-loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/9217a7f5a73261867db220523aeafc88.lua"))()
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/16ef3b8358c3871fed6457dc45dca67e.lua"))()
