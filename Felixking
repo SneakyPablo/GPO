@@ -24,7 +24,7 @@ end
 
 game:GetService("RunService"):Set3dRenderingEnabled(false)
 getgenv().BuyMythicalChest = true
-getgenv().BuyLegendaryChest = false
+getgenv().BuyLegendaryChest = true
 getgenv().StopOnShop = false
 getgenv().MythicalCostCap = 375453
 getgenv().TweenSpeed = 50
